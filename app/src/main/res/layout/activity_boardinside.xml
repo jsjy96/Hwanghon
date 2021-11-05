@@ -73,12 +73,26 @@
                     android:text="내용영역"
                     android:padding="10dp"/>
 
+                <FrameLayout
+                    android:id="@+id/image3layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_weight="1">
+
                 <ImageView
                     android:id="@+id/getImageArea"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"/>
+
+                    <ImageView
+                        android:src="@drawable/blurrrr"
+                        android:id="@+id/blurArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </FrameLayout>
 
                 <ListView
                     android:id="@+id/commentLV"
