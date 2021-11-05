@@ -23,6 +23,8 @@ class SettingActivity : AppCompatActivity() {
 
         auth = Firebase.auth
 
+        //sdnjfankdjs
+
         val logoutBtn = findViewById<Button>(R.id.logoutBtn)
         logoutBtn.setOnClickListener {
             auth.signOut()
