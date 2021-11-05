@@ -63,5 +63,57 @@
         <action
             android:id="@+id/action_communityFragment_to_classFragment"
             app:destination="@id/classFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_meetcomFragment"
+            app:destination="@id/meetcomFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_mycomFragment"
+            app:destination="@id/mycomFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_meetcomFragment2"
+            app:destination="@id/meetcomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/meetcomFragment"
+        android:name="com.example.mysololife.fragments.MeetcomFragment"
+        android:label="fragment_meetcom">
+        <action
+            android:id="@+id/action_meetcomFragment_to_mycomFragment"
+            app:destination="@id/mycomFragment" />
+        <action
+            android:id="@+id/action_meetcomFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_meetcomFragment_to_mycomFragment2"
+            app:destination="@id/mycomFragment" />
+        <action
+            android:id="@+id/action_meetcomFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_meetcomFragment_to_chattingFragment"
+            app:destination="@id/chattingFragment" />
+        <action
+            android:id="@+id/action_meetcomFragment_to_classFragment"
+            app:destination="@id/classFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mycomFragment"
+        android:name="com.example.mysololife.fragments.MycomFragment"
+        android:label="fragment_mycom">
+        <action
+            android:id="@+id/action_mycomFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_mycomFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_mycomFragment_to_meetcomFragment"
+            app:destination="@id/meetcomFragment" />
+        <action
+            android:id="@+id/action_mycomFragment_to_chattingFragment"
+            app:destination="@id/chattingFragment" />
+        <action
+            android:id="@+id/action_mycomFragment_to_classFragment"
+            app:destination="@id/classFragment" />
     </fragment>
 </navigation>

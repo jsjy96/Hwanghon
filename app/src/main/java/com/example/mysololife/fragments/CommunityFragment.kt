@@ -104,6 +104,16 @@ class CommunityFragment : Fragment() {
             it.findNavController().navigate(R.id.action_communityFragment_to_gameFragment)
         }
 
+        binding.meetcom.setOnClickListener {
+
+            it.findNavController().navigate(R.id.action_communityFragment_to_meetcomFragment)
+        }
+
+        binding.mycom.setOnClickListener {
+
+            it.findNavController().navigate(R.id.action_communityFragment_to_mycomFragment)
+        }
+
         getFBBoardData()
 
         return binding.root
