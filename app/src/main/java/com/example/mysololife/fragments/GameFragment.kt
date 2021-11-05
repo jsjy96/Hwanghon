@@ -36,7 +36,7 @@ class GameFragment : Fragment() {
         super.onCreate(savedInstanceState)
 
     }
-
+//aaaa
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
