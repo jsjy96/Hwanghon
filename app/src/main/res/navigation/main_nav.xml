@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/chattingFragment">
+
+    <fragment
+        android:id="@+id/chattingFragment"
+        android:name="com.example.mysololife.fragments.ChattingFragment"
+        android:label="fragment_chatting">
+        <action
+            android:id="@+id/action_chattingFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_chattingFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_chattingFragment_to_classFragment"
+            app:destination="@id/classFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.mysololife.fragments.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game">
+        <action
+            android:id="@+id/action_gameFragment_to_chattingFragment"
+            app:destination="@id/chattingFragment" />
+        <action
+            android:id="@+id/action_gameFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_gameFragment_to_classFragment"
+            app:destination="@id/classFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/classFragment"
+        android:name="com.example.mysololife.fragments.ClassFragment"
+        android:label="fragment_class"
+        tools:layout="@layout/fragment_class">
+        <action
+            android:id="@+id/action_classFragment_to_chattingFragment"
+            app:destination="@id/chattingFragment" />
+        <action
+            android:id="@+id/action_classFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_classFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="com.example.mysololife.fragments.CommunityFragment"
+        android:label="fragment_community"
+        tools:layout="@layout/fragment_community">
+        <action
+            android:id="@+id/action_communityFragment_to_chattingFragment"
+            app:destination="@id/chattingFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_classFragment"
+            app:destination="@id/classFragment" />
+    </fragment>
+</navigation>

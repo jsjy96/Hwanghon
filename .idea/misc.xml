@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/background_radius.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/background_radius_yellow.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/chat1.xml" value="0.146875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/chatmain.xml" value="0.146875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/class1.xml" value="0.146875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/classmain.xml" value="0.146875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/community1.xml" value="0.146875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/communitymain.xml" value="0.146875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/game2.xml" value="0.146875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/drawable/gamemain.xml" value="0.146875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_board_edit.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_board_write.xml" value="0.2046875" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_boardinside.xml" value="0.2" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_content_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_content_show.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_intro.xml" value="0.152" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_join.xml" value="0.176" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_setting.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/activity_splash.xml" value="0.152" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/board_list_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/comment_list_item.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/content_rv_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/custom_dialog.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_bookmark.xml" value="0.264" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_chatting.xml" value="0.176" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_class.xml" value="0.264" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_community.xml" value="0.264" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_game.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_store.xml" value="0.1" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_talk.xml" value="0.2" />
+        <entry key="..\:/Users/jsjy9/AndroidStudioProjects/MySoloLife/app/src/main/res/layout/fragment_tip.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
