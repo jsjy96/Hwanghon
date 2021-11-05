@@ -29,7 +29,7 @@ class ClassFragment : Fragment() {
 
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_class, container, false)
 
-
+//ddd
 
         binding.chattingTap.setOnClickListener {
 
